@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5ff2e55e-70bd-4a9d-b232-bf3768b9b8a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/surt/Models/cvers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/surt/Models/fm_th_saprel4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/surt/Models/kern_patch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/surt/Models/kern_patchcomment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/surt/Models/kern_supp_db_sap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/surt/Models/kern_supp_db_vendor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/surt/Models/kern_supp_op_sys.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/surt/SystemMonitor/Components/components.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelProject/resources/js/views/dashboard/components/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelProject/resources/js/views/dashboard/components/kerneldetail/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelProject/resources/js/views/dashboard/components/progressbar/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelProject/resources/js/views/dashboard/components/progressbar/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelProject/resources/js/views/dashboard/components/rightsetting/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelProject/resources/js/views/dashboard/components/rightsetting/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelProject/resources/js/views/dashboard/components/righttable/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelProject/resources/js/views/dashboard/components/righttable/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelProject/resources/js/views/dashboard/components/softwaredetail/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../laravelProject/resources/js/views/dashboard/components/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/surt/Models/fm_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/surt/Models/fm_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/surt/SystemMonitor/Mapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/surt/SystemMonitor/Mapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/surt/SystemMonitor/Processes/processes.py" beforeDir="false" afterPath="$PROJECT_DIR$/surt/SystemMonitor/Processes/processes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravelProject/.env" beforeDir="false" afterPath="$PROJECT_DIR$/../laravelProject/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravelProject/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../laravelProject/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravelProject/resources/js/views/dashboard/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../laravelProject/resources/js/views/dashboard/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravelProject/resources/js/views/dashboard/processes/batchchart/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../laravelProject/resources/js/views/dashboard/processes/batchchart/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravelProject/resources/js/views/dashboard/processes/bottomtable/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../laravelProject/resources/js/views/dashboard/processes/bottomtable/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravelProject/resources/js/views/dashboard/processes/bottomtable/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../laravelProject/resources/js/views/dashboard/processes/bottomtable/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravelProject/resources/js/views/dashboard/processes/dialogchart/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../laravelProject/resources/js/views/dashboard/processes/dialogchart/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravelProject/resources/js/views/dashboard/processes/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../laravelProject/resources/js/views/dashboard/processes/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravelProject/resources/js/views/dashboard/processes/spoolchart/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../laravelProject/resources/js/views/dashboard/processes/spoolchart/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravelProject/resources/js/views/dashboard/processes/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../laravelProject/resources/js/views/dashboard/processes/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravelProject/resources/js/views/dashboard/processes/upd2chart/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../laravelProject/resources/js/views/dashboard/processes/upd2chart/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laravelProject/resources/js/views/dashboard/processes/updchart/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../laravelProject/resources/js/views/dashboard/processes/updchart/index.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1mzCLEtJmplDJSobXn7bpc3QDzi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/surt/Models" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\piety\123\starterproject\FlaskServer\surt\Models" />
+      <recent name="E:\piety\123\starterproject\FlaskServer\surt\SystemMonitor\Components" />
+      <recent name="E:\piety\123\starterproject\FlaskServer\surt\SystemMonitor\Processes" />
+      <recent name="E:\piety\123\starterproject\FlaskServer\surt\SystemMonitor\Dumps" />
+      <recent name="E:\piety\123\starterproject\FlaskServer\surt\SystemMonitor" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="FlaskServer" type="PythonConfigurationType" factoryName="Python">
+      <module name="FlaskServer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ff2e55e-70bd-4a9d-b232-bf3768b9b8a1" name="Default Changelist" comment="" />
+      <created>1610486974414</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610486974414</updated>
+      <workItem from="1610486975963" duration="13000" />
+      <workItem from="1610536481863" duration="1051000" />
+      <workItem from="1610988896327" duration="2901000" />
+      <workItem from="1611036492213" duration="1825000" />
+      <workItem from="1611184281688" duration="22653000" />
+      <workItem from="1611463716425" duration="42448000" />
+      <workItem from="1611637012007" duration="2608000" />
+      <workItem from="1611691872006" duration="5203000" />
+      <workItem from="1611732441655" duration="9744000" />
+      <workItem from="1611793601335" duration="37238000" />
+      <workItem from="1612336619177" duration="5071000" />
+      <workItem from="1612419523371" duration="601000" />
+      <workItem from="1612565983959" duration="1791000" />
+      <workItem from="1612799016948" duration="19803000" />
+      <workItem from="1612973392468" duration="16000" />
+      <workItem from="1612973438835" duration="2000" />
+      <workItem from="1612973466867" duration="1925000" />
+      <workItem from="1612992396931" duration="54000" />
+      <workItem from="1612992566339" duration="1949000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1611898452975">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611898452975" />
+    <state width="1877" height="328" key="GridCell.Tab.0.bottom" timestamp="1612994368694">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="328" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612994368694" />
+    <state width="1877" height="328" key="GridCell.Tab.0.center" timestamp="1612994368693">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="328" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612994368693" />
+    <state width="1877" height="328" key="GridCell.Tab.0.left" timestamp="1612994368693">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="328" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612994368693" />
+    <state width="1877" height="328" key="GridCell.Tab.0.right" timestamp="1612994368693">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="328" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612994368693" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1610536620442">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610536620442" />
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1611345377196">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611345377196" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/FlaskServer$FlaskServer.coverage" NAME="FlaskServer Coverage Results" MODIFIED="1612994368674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>

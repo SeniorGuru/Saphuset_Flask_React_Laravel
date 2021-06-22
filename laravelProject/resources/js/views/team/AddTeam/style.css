@@ -1,0 +1,10 @@
+.edit-button {
+    position: absolute;
+    width: 100%;
+    text-align: right;
+    justify-content: flex-end;
+}
+.team-detail-close-btn{
+    background: none;
+    border: none;
+}

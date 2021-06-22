@@ -1,0 +1,34 @@
+/*.function-Table .table tbody tr td:nth-child(1) {*/
+/*    display: none;*/
+/*}*/
+
+.function-Table .table tbody tr td {
+    height: 45px !important;
+    padding: 10px !important;
+    vertical-align: center !important;
+}
+.function-Table .table  {
+    margin: 0px !important;
+}
+.ul-task-manager__dot {
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.form-control {
+    background: #ffffff;
+}
+.no-side-borders{
+    border-left: 0px !important;
+    border-right: 0px !important;
+}
+.react-bs-container-body > table > tbody > tr > td {
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-bottom: 0px !important;
+}
+
+.table-bordered {
+    border: 0px !important;
+}

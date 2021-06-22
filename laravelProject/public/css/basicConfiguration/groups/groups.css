@@ -1,0 +1,783 @@
+*
+{
+    box-sizing: border-box;
+}
+.outer-structure
+{
+    width: 100%;
+}
+.float-left
+{
+    float: left !important;
+}
+.float-right
+{
+    float: right !important;
+}
+.table-container
+{
+    width: 100%;
+}
+.width20
+{
+    width: 20%;
+    float: left;
+}
+.width10
+{
+    width: 10%;
+    float: left;
+}
+.width15
+{
+    width: 15%;
+    float: left;
+}
+.width25
+{
+    width: 25%;
+    float: left;
+}
+.dropdown-container
+{
+    width:100%;
+}
+.p-10
+{
+    padding: 10px !important;
+}
+.position-relative
+{
+    position: relative;
+}
+.select-box-style
+{
+    padding: 9px;
+    font-size: 12px;
+    width: 100%;
+    border-radius: 4px;
+    outline: none !important;
+    background: #F4F4F4 !important;
+    border: 1px solid #939393 !important;
+}
+.option-style
+{
+
+}
+.label-style
+{
+    font-size: 11px;
+    font-weight: 600;
+    color: #484848;
+    position: relative;
+    top: 4px;
+}
+/* This is to remove the arrow of select element in IE */
+select::-ms-expand {	display: none; }
+select{
+    -webkit-appearance: none;
+    appearance: none;
+}
+@-moz-document url-prefix(){
+	.ui-select{border: 1px solid #CCC; border-radius: 4px; box-sizing: border-box; position: relative; overflow: hidden;}
+  .ui-select select { width: 110%; background-position: right 30px center !important; border: none !important;}
+}
+.down-arrow-style
+{
+    position: absolute;
+    z-index: 99;
+    right: 20px;
+    top: 46px;
+}
+.search
+{
+    font-size: 12px;
+    width: 100%;
+    padding:9px 33px 9px 10px;
+    border-radius: 4px;
+    outline: none !important;
+    background: #F4F4F4 !important;
+    border: 1px solid #939393 !important;
+}
+.actual-table-container
+{
+    padding: 25px 10px !important;
+    box-shadow: 0px 0px 10px #dadada;
+    border-radius: 10px;
+    background: white;
+    width: 75%;
+}
+th
+{
+    text-align: inherit;
+    height: 50px;
+    font-size: 12px;
+    padding: 0px 15px 17px !important;
+}
+td
+{
+    font-size: 12px;
+    height: 50px;
+    /*padding: 17px 12px 0px !important;*/
+    /* padding: 0px !important; */
+}
+.widtht20
+{
+    width:20%;
+}
+.widtht10
+{
+    width: 10%;
+}
+.widtht15
+{
+    width: 15%;
+}
+.edit-btn
+{
+    width: 100%;
+    font-size: 9px;
+    FONT-WEIGHT: 600;
+    box-shadow: 0px 0px 8px lightgrey;
+    padding: 11px 20px;
+    border: 1px solid #DBDBDB !important;
+    border-radius: 25px;
+    color: #252525;
+    position: relative;
+    outline: none !important;
+    background: #FFFFFF !important;
+    cursor: pointer;
+    top: -8px;
+    left: 0px;
+}
+.save-btn
+{
+    font-size: 10px;
+    box-shadow: 0px 0px 8px lightgrey;
+    padding: 7px 20px;
+    border: 1px solid #DBDBDB !important;
+    border-radius: 25px;
+    color:white;
+    position: relative;
+    outline: none !important;
+    background: #663399 !important;
+    cursor: pointer;
+    top: -5px;
+    left: 3px;
+}
+.select-box-style-insidet
+{
+    padding: 7px;
+    font-size: 10px;
+    width: 100%;
+    position: relative;
+    top: -6px;
+    padding-right: 20px !important;
+    border-radius: 4px;
+    outline: none !important;
+    background: #F4F4F4 !important;
+    border: 1px solid #939393 !important;
+}
+.widtht5
+{
+    width: 5%;
+}
+.down-arrow-table
+{
+    position: absolute;
+    z-index: 99;
+    right: 20px;
+    top: 20px;
+}
+.toggle.btn
+{
+    position: relative;
+    top: -8px;
+    left: 17px;
+
+}
+.down-arrow-style-filled
+{
+    position: absolute;
+    z-index: 99;
+    right: 16px;
+    top: 19px;
+}
+.cpointer
+{
+    cursor: pointer;
+}
+
+
+.colo-red
+{
+    color: red;
+}
+.cursor-pointer
+{
+    cursor: pointer;
+}
+.colo-green
+{
+    color: green;
+}
+.pl-30
+{
+    padding-left: 30px !important;
+}
+.rotate180
+{
+    transform: rotate(180deg);
+}
+.parent-rows:nth-child(1) {
+    background-color: #f2f2f2;
+}
+.parent-rows:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.left-menu-container
+{
+    width: 25%;
+    float: left;
+    padding-right: 25px !important;
+    height: calc(100vh - 165px) !important;
+}
+.left-menu-inner-content
+{
+    width: 100%;
+    height: 100%;
+    float: left;
+    box-shadow: 0px 0px 10px #dadada;
+    border-radius: 10px;
+    padding: 15px;
+    background: white;
+}
+.copied-structure-100
+{
+    width: 100%;
+    float: left;
+    padding: 10px;
+    background: #f1f1f1
+}
+
+.box
+ {
+    width: 200px;
+    height:100px;
+    overflow: auto;
+ }
+
+ .scrollbar-primary::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5; }
+
+    .scrollbar-primary::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: lightgray; }
+
+    .scrollbar-primary {
+    scrollbar-color: #4285F4 #F5F5F5;
+    }
+
+
+
+
+
+    /* Popups filter starts */
+    .popup-container
+    {
+        width: 200px;
+        height: 235px;
+        position: absolute;
+        z-index: 100;
+
+    }
+    .add-groups
+    {
+        right: 25px;
+        top: 37px;
+    }
+    .popup-content
+    {
+        width: 100%;
+        background: white;
+        height: 100%;
+        box-shadow: 0px 0px 15px #d8d8d8;
+        border-radius: 5px;
+        margin-top: 10px;
+        padding: 15px;
+
+    }
+    .triangle
+    {
+        width: 100%;
+        float: left;
+    }
+    .arrow-up {
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid white;
+        float: right;
+        margin-right: 34px;
+      }
+      .f-head
+      {
+          font-size: 15px !important;
+      }
+      .container-heading
+      {
+          width: 100%;
+          float: left;
+          font-size: 13px;
+          font-weight: 600;
+          color: #585858;
+          padding: 0px 0px 10px 0px;
+      }
+      .groups-container
+      {
+        width: 100%;
+        float: left;
+        padding: 5px 10px 5px 10px !important;
+        max-height: 125px;
+        overflow: auto;
+      }
+      .custom-checkbox .custom-control-input:checked~.custom-control-label::before
+      {
+          background:#442766 !important;
+      }
+
+    .check-label-style
+    {
+        font-size: 14px;
+        /* position: relative; */
+        color: #585858;
+        margin-top: 2px;
+        margin-left: 5px;
+    }
+    .pop-button-container
+    {
+        width:100%;
+        float: left;
+    }
+    .clear-btn
+    {
+        width: 60px;
+        font-size: 9px;
+        padding: 8px;
+        border-radius: 2px;
+        font-weight: bold;
+        outline: none;
+        box-shadow: 0px 0px 6px #e2e2e2;
+        color: #3e3e3e;
+        background: white;
+        border: 1px solid #cccccc;
+        float: right;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+    .apply-btn
+    {
+        width: 80px;
+        font-size: 9px;
+        padding: 8px;
+        border-radius: 2px;
+        font-weight: bold;
+        outline: none;
+        box-shadow: 0px 0px 6px #e2e2e2;
+        color: white;
+        background: #442766;
+        border: 1px solid #442766;
+        float: right;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+    .overlayaddbutton {
+        position: fixed; /* Sit on top of the page content */
+        display: block;
+        width: 100%; /* Full width (cover the whole page) */
+        height: 100%; /* Full height (cover the whole page) */
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.0); /* Black background with opacity */
+        z-index: 50; /* Specify a stack order in case you're using a different order for other elements */
+        cursor: pointer; /* Add a pointer on hover */
+      }
+    /* Popups filter ends */
+    .filter-container
+    {
+        width: 100%;
+        float: left;
+        padding: 10px 2px;
+        float: right;
+        padding-left: 35px !important;
+    }
+    .filter-content
+    {
+        padding: 9px;
+        border-radius: 50%;
+        border: none;
+        background: white;
+        box-shadow: 0px 0px 5px #cacaca;
+        outline: none !important;
+        cursor: pointer;
+        float: right;
+    }
+    .filter-groups
+    {
+        right: -23px;
+        top: 49px;
+        width: 260px !important;
+        height: 240px !important;
+    }
+    .filter-label
+    {
+        font-size: 12px !important;
+    /* position: relative; */
+       color: #585858;
+        margin-top: 5px!important;
+        margin-left: 5px!important;
+    }
+/* Leftmenu start */
+.left-menu-heading
+{
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #333;
+    padding: 5px 0;
+}
+.left-groups-container
+{
+    width: 100%;
+    float: left;
+    overflow: auto;
+    max-height: calc(100vh - 255px);
+    padding: 5px;
+}
+.left-checkbox-container
+{
+    width: 50%;
+    float: left;
+}
+.left-filter-label
+{
+    font-size: 12px !important;
+/* position: relative; */
+   color: #585858;
+    margin-top: 4px!important;
+    margin-left: 5px!important;
+}
+.check-pad
+{
+    padding: 0px 10px 0px !important;
+}
+.pt-30
+{
+    padding-top: 30px !important;
+}
+.newgroup-container
+{
+    width: 100%;
+    float: left;
+    padding: 10px 0px 20px;
+}
+.new-group-btn
+{
+    width: 48% !important;
+    box-shadow: 0px 0px 6px #7d7d7d;
+    font-size: 8px !important;
+    float: left;
+    padding: 12px 0px !important;
+
+}
+.delete-group-btn
+{
+    width: 48% !important;
+    box-shadow: 0px 0px 6px #7d7d7d;
+    font-size: 8px !important;
+    float: right;
+    padding: 12px 0px !important;
+
+}
+.dialog-box-container
+{
+    position: absolute;
+    background: white;
+    box-shadow: 0px 0px 15px #3e3e3e;
+    z-index: 200;
+    width: 300px;
+    height: 270px;
+    padding: 15px;
+    left: 50%;
+    top: 280px;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+.dialog-box-container-delete
+{
+
+    background: white;
+    z-index: 200;
+    height: 100px;
+    width: 260px;
+}
+.overlay-dialog
+{
+        position: fixed; /* Sit on top of the page content */
+        width: 100%; /* Full width (cover the whole page) */
+        height: 100%; /* Full height (cover the whole page) */
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+        z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+        cursor: pointer; /* Add a pointer on hover */
+}
+.dialog-box-heading
+{
+    width:100%;
+    float: left;
+    font-weight: 600;
+    font-size: 14px;
+    color: #4c4c4c;
+    padding: 0px 0px 10px;
+}
+.groupname-container
+{
+    width:100%;
+    float: left;
+}
+.groupname-label
+{
+    width:100%;
+    float: left;
+    font-size: 12px;
+    padding-bottom: 4px;
+    color: #383838;
+}
+.left-grp-input
+{
+   width: 100%;
+   float: left;
+   padding: 8px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid gray;
+    background: whitesmoke;
+    font-size: 12px;
+}
+.pt-10
+{
+    padding-top: 10px;
+}
+.pt-25
+{
+    padding-top: 25px !important;
+}
+.width80
+{
+    width: 80px;
+}
+.close-btn
+{
+    position: relative;
+    left: 47%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none !important;
+}
+.menu-content
+{
+    display: none;
+    padding: 9px;
+    border-radius: 50%;
+    border: none;
+    background: white;
+    box-shadow: 0px 0px 5px #cacaca;
+    outline: none !important;
+    cursor: pointer;
+    float: left;
+    position: relative;
+    right: 30px;
+}
+@media only screen and (max-width: 1025px) {
+    .menu-content
+    {
+        display: block;
+    }
+    .actual-table-container
+    {
+        width: 100%;
+        background: white;
+    }
+    .left-menu-container
+    {
+        width: 235px;
+        position: absolute;
+        background: white;
+        top: 31%;
+        display: none;
+        z-index: 10 !important;
+    }
+}
+/* Leftmenu end */
+.by-group-container
+{
+    width: 100%;
+    float: left;
+    padding: 0px 0px 0px 20px;
+}
+.by-group-inner-container
+{
+    width: 100%;
+    float: left;
+    background: #f3f3f3;
+    padding: 10px;
+    padding-bottom: 0px !important;
+    border-radius: 4px;
+}
+.custom-control
+{
+    float: left;
+    width: 100%;
+}
+
+.check-label-inside
+{
+    font-size: 10px;
+    position: relative;
+    top: -2px;
+    left: 5px;
+}
+.width33
+{
+    width: 50%;
+    float: left;
+}
+.sub-sytem-container
+{
+    width: 100%;
+    float: left;
+    padding: 5px 0px 5px 30px;
+}
+.sap-system-checkbox
+{
+
+}
+
+input[type="checkbox"]:checked:after, .checkbox input[type="checkbox"]:checked:after, .checkbox-inline input[type="checkbox"]:checked:after {
+    background-color: #442766 !important;
+    border-color: #442766 !important;
+}
+input[type="checkbox"]:after, .checkbox input[type="checkbox"]:after, .checkbox-inline input[type="checkbox"]:after
+{
+    border: 1px solid #cecece !important;
+}
+
+.chec-style
+{
+    position: relative;
+    left: 10px;
+    top: -2px;
+    font-size: 13px;
+}
+.groups-name-dialog
+{
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+}
+.dialog-group-container
+{
+    overflow: scroll;
+    float: left;
+    height: 100px;
+    width: 100%;
+    /* overflow: scroll; */
+}
+.cl-left
+{
+    left: 52% !important;
+}
+
+.filter-new
+{
+    width: 100%;
+    float: left;
+    width: 100%;
+    background: #CCD6E3;
+    border-radius: 4px;
+    padding: 5px 5px 10px 5px;
+    margin-bottom: 19px;
+}
+.new-width-25
+{
+    width: 25%;
+    float: left;
+}
+.new-cl-btn
+{
+    font-size: 10px;
+    box-shadow: 0px 0px 8px lightgrey;
+    padding: 7px 20px;
+    border: 1px solid #DBDBDB !important;
+    border-radius: 25px;
+    color: #252525;
+    position: relative;
+    outline: none !important;
+    background: #FFFFFF !important;
+    cursor: pointer;
+    /* top: -5px; */
+    float: right;
+    position: relative;
+    left: -8px;
+    top: 0px;
+}
+
+@media only screen and (max-width: 1025px) {
+    .new-width-25
+    {
+        width: 50%;
+        float: left;
+    }
+  }
+
+
+@media only screen and (max-width: 500px) {
+    .new-width-25
+    {
+        width: 100%;
+        float: left;
+    }
+    .left-menu-container
+    {
+        width: 235px;
+        position: absolute;
+        background: white;
+        top: 40%;
+        display: none;
+        z-index: 10 !important;
+    }
+  }
+  .table-style
+  {
+     /* overflow: auto;
+    overflow-x: scroll !important; */
+    height: calc(100vh - 165px);
+  }
+.ntable-stye
+{
+    min-width: 700px !important;
+}
+.card-body
+{
+    padding: 0px !important;
+}

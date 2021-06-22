@@ -1,0 +1,66 @@
+.group-item-view {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .group-item-list {
+      background: white;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius:10px;
+      -ms-border-radius:10px;
+      -o-border-radius:10px;
+      color: black;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      box-shadow: 2px 2px 4px 0px rgb(0 0 0 / 59%);
+  }
+
+  .group-item-list.active, .group-item-list:hover {
+      background-color: #278ee026 !important;
+  }
+  .color-danger{
+      color: red;
+  }
+  .group-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .user-img {
+    width: 30px !important;
+  }
+
+  .font-20 {
+    font-size: 20px;
+  }
+
+  .tab-modal {
+    width: 80%;
+    height: initial;
+  }
+
+  .addgroup-dialog {
+    overflow: auto;
+  }
+
+  #myTabContent {
+      overflow: auto;
+      height: calc(100% - 110px);
+  }
+.tab-pane{
+    overflow-y: auto;
+}
+.actual-table-container {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#popover-basic {
+    height: 180px;
+    width: 300px;
+}
